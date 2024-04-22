@@ -56,3 +56,27 @@ button:hover {
   color: black;
 }
 
+.title {
+  text-align: center;
+}
+
+.pdf-pair {
+  display: flex;
+  justify-content: space-between;
+}
+
+.paper-column {
+  display:flex;
+  flex-direction: column;
+  width: 48%;
+}
+
+.about-row-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-profile-block{
+  width: 30%;
+}
