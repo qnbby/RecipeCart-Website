@@ -1,59 +1,9 @@
 body {
     padding: 25px;
-    background-color: white;
-    color: black;
+    background-color: #2C363F;
+    color: white;
     font-size: 25px;
     font-family: sans-serif;
-    }
-
-    .dark-mode {
-    background-color: black;
-    color: white;
-    }
-    .normal {
-      background-color: white;
-      color: black;    
-    }
- html {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    height: 100%;
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    -webkit-overflow-scrolling: touch;
-    background: none;
-    background-color: var(--bg-color);
-    top: 150px;
-}
-
-button {
-  top:50%;
-  background-color:#0a0a23;
-  color: #fff;
-  border: none;
-  border-radius:20px;
-  width: 150px;
-  height: 50px;
-}
-body.dark-mode button {
-  top:50%;
-  background-color:white;
-  color: black;
-  border:none;
-  border-radius:20px;
-  width: 150px;
-  height: 50px;
-}
-body.dark-mode button:hover {
-  background-color: lightblue;
-  color: #0a0a23;
-}
-button:hover {
-  background-color: lightgreen;
-  color: black;
 }
 
 .title {
@@ -79,4 +29,33 @@ button:hover {
 
 .about-profile-block{
   width: 30%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.mode-container {
+  height: 100px;
+  position: relative;
+}
+
+hr {
+  border: none; /* Remove default border */
+  height: 10px; /* Set the desired thickness */
+  background-color: #fff; /* Set background color to white */
+  width: 50%;
+}
+
+hr::after {
+  content: ""; /* Add empty content to avoid collapsing */
+  display: block;
+  width: 100%; /* Stretch across the container */
+  margin-top: -5px; /* Position on top of the original line */
+  border-radius: 50%; /* Set rounded corners */
+  background-color: #fff; /* Set background color again for emphasis */
 }
