@@ -1,19 +1,8 @@
 @media (max-width: 991px) {
     .navbar-scroll {
-      background-color: #fff;
+      background-color: #3c3838;
     }
-       
-    .navbar-scroll .navbar-brand,
-    .navbar-scroll .nav-link,
-    .navbar-scroll .fa-bars {
-      color: #000000;
-    }
-    body.dark-mode 
-    .navbar-scroll .navbar-brand,
-    .navbar-scroll .nav-link,
-    .navbar-scroll .fa-bars {
-      color: #ffffff; /* Color for dark mode */
-    }         
+             
   }
   
   .navbar-brand {
@@ -49,7 +38,7 @@
   }
   
   .navbar-scrolled {
-    background-color: #fff;
+    background-color: #2c2a2a;
   }
   
   @media (max-width: 450px) {

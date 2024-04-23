@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-XHxbdAAXGQ3LN/ACVW89v9fwq0DpdfLeKGmvzjS4hIWzJHAEC3rhvBfBgyEmxsglUfB/ovBIUhFOGBfMUDFbcFA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./js/interactions.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
@@ -34,13 +35,16 @@
                   <a class="nav-link text-white " href="#description">Description</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link text-white " href="#team">Team</a>
+                  </li>
+                <li class="nav-item">
                   <a class="nav-link text-white" href="#sd2">Senior Design 2</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white" href="#sd1">Senior Design 1</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#!">Acknowledgements</a>
+                  <a class="nav-link text-white" href="#ack">Acknowledgements</a>
                 </li>
               </ul>
             </div>
@@ -49,9 +53,14 @@
     </header>
     <!-- Home -->
     <section class="pt-5" id="home">
+        <p style="font-size: 1.8rem; text-align: center;">Recipe Cart</p>
+        <div class="title">
+            <a href="https://github.com/RecipeCart/RecipeCart" target="_blank" title="View on GitHub">
+                <img src="files/github-mark-white.png" alt="GitHub Logo" width="32" height="32">
+            </a>
+        </div>
 
-            <p style="font-size: 1.8rem; text-align: center;">Recipe Cart</p>
-            <hr>
+        <hr>
     </section>
     <!-- Description -->
     <section class="pt-3"id="description">
@@ -80,6 +89,29 @@
                 web-share" allowfullscreen>
             </iframe>
         </div>
+        <hr>
+    </section>
+    <!-- Team -->
+    <section class="pt-5" id="team">
+        <div class="container">
+            <p style="font-size: 1.4rem; text-align: center;">Members</p>
+        </div>
+        
+        <div class="container about-row-layout">
+            <div class="about-profile-block-title title">
+                <h2 style="font-size: 1.4rem;">Quan Nguyen</h2>
+                <h3 style="font-size: 1.2rem;">CPE</h3>
+            </div>
+            <div class="about-profile-block-title title">
+                <h2 style="font-size: 1.4rem;">Darren Ha</h2>
+                <h3 style="font-size: 1.2rem;">CPE</h3>
+            </div>
+            <div class="about-profile-block-title title">
+                <h2 style="font-size: 1.4rem;">Bryan Ha</h2>
+                <h3 style="font-size: 1.2rem;">CS</h3>
+            </div>
+        </div>
+
         <hr>
     </section>
     <!-- Senior Design 2 -->
@@ -121,15 +153,15 @@
             </div>
         </div>
         <div class="container py-4 px-4 title">
-            <a class ="text-white" href="files/Final-CDR-Pres.pptx" download="G35-final-pres.pptx" style="font-size: 1.3rem;">
+            <a class ="text-white" href="files/Final-CDR-Pres.pptx" download="G35-final-pres.pptx" target="_blank" style="font-size: 1.3rem;">
                 Final Presentation Slides
             </a>
             <br>
-            <a class ="text-info"href="https://www.youtube.com/watch?v=9qudDqd95zA" style="font-size: 1.3rem;" id="open-in-new-tab">
+            <a class ="text-info"href="https://www.youtube.com/watch?v=9qudDqd95zA" style="font-size: 1.3rem;" target="_blank">
                 Midterm Demo Video
             </a>
             <br>
-            <a class ="text-white" href="files/SeniorDesign-2-CDR-Group-35.pptx" download="G35-midterm-pres.pptx" style="font-size: 1.3rem;">
+            <a class ="text-white" href="files/SeniorDesign-2-CDR-Group-35.pptx" download="G35-midterm-pres.pptx" target="_blank" style="font-size: 1.3rem;">
                 Midterm CDR Slides
             </a>
         </div>
@@ -137,6 +169,7 @@
 
         <hr>
     </section>    
+    <!-- Senior Design 1 -->
     <section class="pt-3"id="sd1">
         <p style="font-size: 1.4rem; text-align: center;">Senior Design 1</p>
         <p style="font-size: 1rem; text-align: center;">This section includes all the documentations and videos from Senior Design 1</p>
@@ -156,88 +189,30 @@
             </iframe>
         </div>
         <div class="container py-4 px-4 title">
-            <a class ="text-white" href="files/SD1-Report-Final-Draft.pdf" download="SD1-report.pdf" style="font-size: 1.3rem;">
+            <a class ="text-white" href="files/SD1-Report-Final-Draft.pdf" download="SD1-report.pdf" target="_blank" style="font-size: 1.3rem;">
                 SD1 Report
             </a>
             <br>
-            <a class ="text-info" href="files/SD1-Report-60pages.pdf" download=" 60p-report.pdf" style="font-size: 1.3rem;">
+            <a class ="text-info" href="files/SD1-Report-60pages.pdf" download=" 60p-report.pdf" target="_blank" style="font-size: 1.3rem;">
                 60-page report
             </a>
             <br>
-            <a class ="text-white" href="files/Initial Project Documentation.pdf" download="10p-report.pdf" style="font-size: 1.3rem;">
+            <a class ="text-white" href="files/Initial Project Documentation.pdf" download="10p-report.pdf" target="_blank" style="font-size: 1.3rem;">
                 Divide and Conquer Document
             </a>
         </div>
         <hr>
+    </section >
+    <section class="pt-3"id="ack">
+        <p style="font-size: 1.4rem; text-align: center;">Acknowledgements</p>
+        <p style="font-size: 1.3rem; text-align: center;">Special thanks to:</p>
+        <p class="text-success"style="font-size: 1.2rem; text-align: center;">Professor Wei, Professor Chan and Professor Gerber as our instructors</p>
+        <p class="text-success"style="font-size: 1.2rem; text-align: center;">Dr Zhang, Dr Ahmed and Dr Guha as our reviewers</p>
+        <hr>
     </section>
-    <!-- <br><hr>
-    <div>
-        <h1 class="title>">Videos</h1>
-        <div class="pdf-pair">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/TaS3BjbWBOE?si=RTxUwvhu5LAxWAyq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-        </div>
+    <div class="pt-5">
+        <p style="font-size: 1.4rem; text-align: center;">Thank You!</p>
     </div>
-
-    <hr>
-
-    <div>
-        <div>Members (we love coding): </div>
-        <div class="about-row-layout">
-            <div class="about-profile-block-title">
-                <h2>Quan</h2>
-                <h3>CPE</h3>
-            </div>
-            <div class="about-profile-block-title">
-                <h2>Darren</h2>
-                <h3>CPE</h3>
-            </div>
-            <div class="about-profile-block-title">
-                <h2>Bryan</h2>
-                <h3>CS</h3>
-            </div>
-        </div>
-    </div>
-    
-    <hr>
-
-    <p><h1 class="title">Papers</h1></p>
-    <div class="pdf-pair">
-        <div class="paper-column title">
-            <h2>Final SD1 Report</h2>
-            <embed 
-            src="files/SD1-Report-Final-Draft.pdf"
-            type="application/pdf" 
-            width="100%" 
-            height="600px"/>
-        </div>
-        <div class="paper-column title">
-            <h2>Divide and Conquer Documentation</h2>
-            <embed 
-            src="files/Initial Project Documentation.pdf" 
-            type="application/pdf" 
-            width="100%" 
-            height="600px" />
-        </div>
-    </div>
-    <div class="pdf-pair">
-        <div class="paper-column title">
-            <h2>Divide and Conquer Midway Point Report</h2>
-            <embed 
-            src="files/SD1-Report-60pages.pdf" 
-            type="application/pdf" 
-            width="100%" 
-            height="600px" />
-        </div>
-        <div class="paper-column title">
-            <h2>Divide and Conquer Documentation</h2>
-            <embed 
-            src="files/Initial Project Documentation.pdf" 
-            type="application/pdf" 
-            width="100%" 
-            height="600px" />
-        </div>
-    </div> -->
 
 </body>
 </html>
